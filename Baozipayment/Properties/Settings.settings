@@ -1,0 +1,154 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Baozipayment.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PaypalPaymentVerificationURL" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://www.paypal.com/cgi-bin/webscr</Value>
+    </Setting>
+    <Setting Name="MockInterviewEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(please do NOT reply to this email)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi mock interview!
+
+We provide mock interview services, which includes 3 rounds of 45 min mock interview + 30 min debrief session. We will be speaking to you with video call and online coding if you are not in Seattle area. If you are in Seattle, we could arrange onsite interviews.
+
+[PROMOTION] Good news, you are qualified to get $20 Cashback  after sharing the Baozi wechat articles in your wechat. For details, please follow instructions on the http://baozitraining.org/#mock_interview or contact baozitraining@outlook.com.
+
+Next step: (Please send email to baozitraining@outlook.com)
+1) Please send us a few times that works for you. Usually Tuesday evening is our default interview day, but we can make exceptions if it doesn't work for you. We will confirm with our interviewers for their availability. All of our interviewers are currently working fulltime at companies so we could either do it in the evenings during weekdays or anytime weekends. Thanks for your understanding. 
+2) Please send us your resume.
+3) Please provide us your Skype ID, [QQ only if you are not in the US]. Lastly, a phone number if all above don’t work.
+4) Please stay at a place that has decent network connection, we will be video chatting and do online coding.
+
+We appreciate your business  and good luck on your interview!
+
+Best,
+Baozi Team</Value>
+    </Setting>
+    <Setting Name="MockInterviewEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to baozi Mock Interview</Value>
+    </Setting>
+    <Setting Name="OnlineClassEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Weekend Class Payment Succeed&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p align="center" style="color: #FF0000"&gt;This is an auto generated message, please do NOT reply to the sender.&lt;/p&gt;
+
+&lt;p&gt;
+Hi {0}, 
+&lt;/p&gt;
+
+&lt;p&gt;
+Thanks a lot for you interests in Baozi Training's weekend algorithm session. We have received your payment and please follow the below items
+&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; Please send us your name, email address and WeChat ID (optional) to &lt;a href="mailto:baozitraining@outlook.com"&gt;baozitraining@outlook.com&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt; Please confirm the dates of the classes: 03/26/2016, 03/27/2016 (from 10am to 2pm PST) &lt;/li&gt;
+
+&lt;li&gt; Please share this confirmation email with your friends if you purchased this service together . &lt;/li&gt;
+
+&lt;li&gt; We will send you the links to our live webcast and on 03/25/2016. For course outline and FAQs, please refer to &lt;a href="http://baozitraining.org/#weekend_class"&gt;http://baozitraining.org/#weekendclass/&lt;/a&gt; For course slides and other materials, we will send it after the class is over. &lt;/li&gt;
+
+&lt;li&gt; We will have an algorithm discussion group. please send questions to 
+&lt;a href="mailto:baozidiscussion@googlegroups.com"&gt;baozidiscussion@googlegroups.com&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt; If you prefer to receive the latest interview qustions/tips, please subscribe to our WeChat (baozitraining) 
+(scan QR code bellow) or like like our Facebook page &lt;a href="https://www.facebook.com/baozitraining/"&gt;https://www.facebook.com/baozitraining/&lt;/a&gt; &lt;/li&gt;
+
+&lt;li&gt;What is your current algorithm confident level? [Not confident, So so, Very confident]. Have you started practicing problem solving using online judge, E.g., Leetcode.com? If so, what is your current progress? &lt;/li&gt;
+
+&lt;li&gt; For any issues or questions, please feel free to contact &lt;a href="mailto:baozitraining@outlook.com"&gt;baozitraining@outlook.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+
+&lt;table border="0"&gt;
+&lt;tr align="center"&gt;&lt;td&gt;&lt;img width="150" height="150" alt="open this link if you cannot see the QR code http://baozitraining.org/static/media/logo/Baozi_weixin.jpg" src="http://baozitraining.org/static/media/logo/Baozi_weixin.jpg"/&gt;&lt;/td&gt;&lt;/tr&gt;
+&lt;tr&gt;&lt;td align="center"&gt;baozi wechat page&lt;/td&gt;&lt;/tr&gt;
+&lt;/table&gt;
+
+
+&lt;p&gt;
+Sit back, relax and enjoy our courses! 
+&lt;/p&gt;
+&lt;p&gt;
+Thanks,&lt;br&gt;
+Baozi Team
+&lt;/p&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</Value>
+    </Setting>
+    <Setting Name="OnlineClassEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to baozi weekend class</Value>
+    </Setting>
+    <Setting Name="MockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OnlineClassEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="OnlineTestEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to baozi weekend coding test</Value>
+    </Setting>
+    <Setting Name="OnlineTestEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(please do NOT reply to this email)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi weekend coding test!
+
+We provide weekend coding test service. It includes coding exams (during sat. and sun. morning) and question analysis (during sat. and sun. afternoon). All submitted student answers will be carefully reviewed and scored.
+
+Next step:
+1) Please confirm that the time is Saturday &amp; Sunday, Jan 23 2016 - Jan 24 2016, 9am - 5pm PST.
+2) Please send email to baozitraining@outlook.com, with title "register weekend coding test", payment transcript id and your resume.
+3) Please share this information with your group members if you bought this service together.
+4) Please stay at a place that has decent network connection, we will be video chatting and do online coding.
+5) Follow our wechat "baozitraining" for more useful IT interview tricks.
+
+We will send you an email with links to join online coding test meeting by the end of Jan 22 2016. Please relax and be patient.
+If you have any other questions, please feel free to send email to baozitraining@outlook.com .
+
+We appreciate your business  and good luck on your coding test!
+
+Best,
+Baozi Team</Value>
+    </Setting>
+    <Setting Name="OnlineTestEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OnlineJudgeEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Welcome to baozi weekend online Judge</Value>
+    </Setting>
+    <Setting Name="OnlineJudgeEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(please do NOT reply to this email)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi weekend coding online judge!
+
+It is a completely new challange, yet completely entertaining and completely free!
+
+Please confirm that the time is Saturday &amp; Sunday, Jan 23 2016 - Jan 24 2016, 9am - 5pm PST.
+And we will send you the link to the online judge by the end of Jan 22 2016.
+
+Also, you will always get an option to purchase classes when you are ready to dig into it.
+
+Follow our wechat "baozitraining" for more useful IT interview tricks.
+If you have any other questions, please feel free to send email to baozitraining@outlook.com .
+
+Happy Coding!
+
+Best,
+Baozi Team</Value>
+    </Setting>
+    <Setting Name="OnlineJudgeEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
