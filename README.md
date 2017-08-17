@@ -15,6 +15,7 @@ In particular, the *stateTransite* function should be paid attention to.
 
 The *emailNotifyUser* funciton will send email with certain templates, and all templates are defined in the resource file.
 
-Right click the *Baozipayment* project and click properties. On the settings tab, you should be able to see all the existing template resources
+Right click the *Baozipayment* project and click properties. On the settings tab, you should be able to see all the existing template resources.
+You can also modify those strings and save it.
 
 Update the template you needed, and adjust the code accordingly.

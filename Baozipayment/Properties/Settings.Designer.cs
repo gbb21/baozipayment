@@ -12,7 +12,7 @@ namespace Baozipayment.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -34,23 +34,21 @@ namespace Baozipayment.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"(please do NOT reply to this email)
+        [global::System.Configuration.DefaultSettingValueAttribute(@"(PLEASE DO NOT REPLY TO THIS EMAIL)
 
 Hey {0},
 
 Thanks a lot for your interests in Baozi mock interview!
 
-We provide mock interview services, which includes 3 rounds of 45 min mock interview + 30 min debrief session. We will be speaking to you with video call and online coding if you are not in Seattle area. If you are in Seattle, we could arrange onsite interviews.
+Your mock interview includes three rounds of 45 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and online coding.
 
-[PROMOTION] Good news, you are qualified to get $20 Cashback  after sharing the Baozi wechat articles in your wechat. For details, please follow instructions on the http://baozitraining.org/#mock_interview or contact baozitraining@outlook.com.
-
-Next step: (Please send email to baozitraining@outlook.com)
-1) Please send us a few times that works for you. Usually Tuesday evening is our default interview day, but we can make exceptions if it doesn't work for you. We will confirm with our interviewers for their availability. All of our interviewers are currently working fulltime at companies so we could either do it in the evenings during weekdays or anytime weekends. Thanks for your understanding. 
+Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+1) Please send us a few times that works for you. Usually Tuesday evening (6pm to 10pm PST/PDT) is our default interview time, we could make exceptions if this absolutely doesn't work for you. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. All of our interviewers are currently working fulltime at well known IT companies. Thanks for your understanding. 
 2) Please send us your resume.
-3) Please provide us your Skype ID, [QQ only if you are not in the US]. Lastly, a phone number if all above don’t work.
-4) Please stay at a place that has decent network connection, we will be video chatting and do online coding.
+3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
+4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
 
-We appreciate your business  and good luck on your interview!
+We appreciate your business and good luck on your interviews!
 
 Best,
 Baozi Team")]
@@ -62,7 +60,7 @@ Baozi Team")]
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to baozi Mock Interview")]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
         public string MockInterviewEmailTitle {
             get {
                 return ((string)(this["MockInterviewEmailTitle"]));
