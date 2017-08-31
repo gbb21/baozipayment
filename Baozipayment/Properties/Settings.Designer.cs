@@ -52,18 +52,18 @@ We appreciate your business and good luck on your interviews!
 
 Best,
 Baozi Team")]
-        public string MockInterviewEmailTemplates {
+        public string SdeMockInterviewEmailTemplates {
             get {
-                return ((string)(this["MockInterviewEmailTemplates"]));
+                return ((string)(this["SdeMockInterviewEmailTemplates"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
-        public string MockInterviewEmailTitle {
+        public string SdeMockInterviewEmailTitle {
             get {
-                return ((string)(this["MockInterviewEmailTitle"]));
+                return ((string)(this["SdeMockInterviewEmailTitle"]));
             }
         }
         
@@ -116,9 +116,9 @@ Baozi Team")]
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool MockInterviewEmailIsHtml {
+        public bool SdeMockInterviewEmailIsHtml {
             get {
-                return ((bool)(this["MockInterviewEmailIsHtml"]));
+                return ((bool)(this["SdeMockInterviewEmailIsHtml"]));
             }
         }
         

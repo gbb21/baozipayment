@@ -5,7 +5,7 @@
     <Setting Name="PaypalPaymentVerificationURL" Type="System.String" Scope="Application">
       <Value Profile="(Default)">https://www.paypal.com/cgi-bin/webscr</Value>
     </Setting>
-    <Setting Name="MockInterviewEmailTemplates" Type="System.String" Scope="Application">
+    <Setting Name="SdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
       <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
 
 Hey {0},
@@ -25,7 +25,7 @@ We appreciate your business and good luck on your interviews!
 Best,
 Baozi Team</Value>
     </Setting>
-    <Setting Name="MockInterviewEmailTitle" Type="System.String" Scope="Application">
+    <Setting Name="SdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
       <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Mock Interview</Value>
     </Setting>
     <Setting Name="OnlineClassEmailTemplates" Type="System.String" Scope="Application">
@@ -84,7 +84,7 @@ Baozi Team
     <Setting Name="OnlineClassEmailTitle" Type="System.String" Scope="Application">
       <Value Profile="(Default)">[Action Required] Welcome to baozi weekend class</Value>
     </Setting>
-    <Setting Name="MockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
+    <Setting Name="SdeMockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="OnlineClassEmailIsHtml" Type="System.Boolean" Scope="Application">

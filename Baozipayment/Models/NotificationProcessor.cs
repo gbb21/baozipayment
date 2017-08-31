@@ -52,9 +52,13 @@ namespace Baozipayment.Models
 			{
 				if (m_paymentInfo.paymentStatusValue == PaymentStatus.Completed)
 				{
-					if (m_paymentInfo.item_name.ToLower().Contains("interview"))
-						await emailNotifyUser("MockInterview");
-					else if (m_paymentInfo.item_name.ToLower().Contains("weekend class"))
+					if (m_paymentInfo.item_name.ToLower().Contains("sde interview"))
+						await emailNotifyUser("SdeMockInterview");
+                    else if (m_paymentInfo.item_name.ToLower().Contains("non-sde interview"))
+                        await emailNotifyUser("NonSdeMockInterview");
+                    else if (m_paymentInfo.item_name.ToLower().Contains("premium sde interview"))
+                        await emailNotifyUser("PremiumSdeInterview");
+                    else if (m_paymentInfo.item_name.ToLower().Contains("weekend class"))
 						await emailNotifyUser("OnlineClass");
 					else if (m_paymentInfo.item_name.ToLower().Contains("weekend test"))
 						await emailNotifyUser("OnlineTest");
