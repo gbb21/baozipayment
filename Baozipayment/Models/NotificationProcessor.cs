@@ -57,7 +57,7 @@ namespace Baozipayment.Models
                     else if (m_paymentInfo.item_name.ToLower().Contains("non-sde interview"))
                         await emailNotifyUser("NonSdeMockInterview");
                     else if (m_paymentInfo.item_name.ToLower().Contains("premium sde interview"))
-                        await emailNotifyUser("PremiumSdeInterview");
+                        await emailNotifyUser("PremiumSdeMockInterview");
                     else if (m_paymentInfo.item_name.ToLower().Contains("weekend class"))
 						await emailNotifyUser("OnlineClass");
 					else if (m_paymentInfo.item_name.ToLower().Contains("weekend test"))

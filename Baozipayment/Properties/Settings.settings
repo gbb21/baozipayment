@@ -19,6 +19,7 @@ Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS
 2) Please send us your resume.
 3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
 4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
+5) By default, 3 rounds are all coding. If you need system design, please let us know how many coding and system design you want. 
 
 We appreciate your business and good luck on your interviews!
 
@@ -147,6 +148,70 @@ Baozi Team</Value>
     </Setting>
     <Setting Name="OnlineJudgeEmailIsHtml" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NonSdeMockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="NonSdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi mock interview!
+
+Your mock interview includes one round of 45 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and online coding.
+
+Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+1) Please send us a few times that works for you. Usually Tuesday evening (6pm to 10pm PST/PDT) is our default interview time, we could make exceptions if this absolutely doesn't work for you. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. All of our interviewers are currently working fulltime at well known IT companies. Thanks for your understanding. 
+2) Please send us your resume.
+3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
+4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
+5) Please let us know if you have any special requirement regarding the interviews, for example, any target company? Coding or System Design? We will try our best to match it.
+
+We appreciate your business and good luck on your interviews!
+
+Best,
+Baozi Team</Value>
+    </Setting>
+    <Setting Name="NonSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Mock Interview</Value>
+    </Setting>
+    <Setting Name="PremiumSdeMockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PremiumSdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi premium mock interview!
+
+Your mock interview includes three rounds of 45 min mock interview + 30 min debrief session, a resume revision and best effort refer program. We will be speaking to you with audio Skype call and online coding.
+
+Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+1) Please send us a few times that works for you. Usually Tuesday evening (6pm to 10pm PST/PDT) is our default interview time, we could make exceptions if this absolutely doesn't work for you. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. All of our interviewers are currently working fulltime at well known IT companies. Thanks for your understanding. 
+2) Please send us your resume. Please cc qianginterview@gmail.com, teacher Qiang will help you with resume.
+3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
+4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
+5) By default, 3 rounds are all coding. If you need system design, please let us know how many coding and system design you want. 
+6) For referral program
+6.1)
+We collaborate with lingoffer.com, please register. We will let them you are Baozi student so you can get referred more times than normal users. 
+6.2)
+Please attach your latest revised resume. The majority of the listed companies need a job id to refer you in the system. So please go to those companies website, find 1 or 2 job ids that you are most interested in, and send an email and your resume to 
+baozirefer@googlegroups.com
+We can refer the below companies, however, it also heavily depends on each company's head count. We will give our best try if you did very well in mock interviews, but unfortunately we cannot guarantee anything (as a matter of fact, nobody can guarantee this, if somebody says they can, please rethink). 
+
+
+
+
+We appreciate your business and good luck on your interviews!
+
+Best,
+Baozi Team</Value>
+    </Setting>
+    <Setting Name="PremiumSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Mock Interview</Value>
     </Setting>
   </Settings>
 </SettingsFile>
