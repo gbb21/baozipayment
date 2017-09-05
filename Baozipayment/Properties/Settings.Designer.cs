@@ -292,28 +292,28 @@ Baozi Team")]
             " exceptions if this absolutely doesn\'t work for you. We will confirm with our in" +
             "terviewers for their availability and get back to you 2 -3 days afterwards. All " +
             "of our interviewers are currently working fulltime at well known IT companies. T" +
-            "hanks for your understanding. \r\n2) Please send us your resume. Please cc qiangin" +
-            "terview@gmail.com, teacher Qiang will help you with resume.\r\n3) Please provide u" +
-            "s your Skype ID, [Please register one if you don\'t have it]. A phone number just" +
-            " in case.\r\n4) Please stay at a place that has decent network connection, we will" +
-            " be Skype audio chatting and do online coding.\r\n5) By default, 3 rounds are all " +
-            "coding. If you need system design, please let us know how many coding and system" +
-            " design you want. \r\n6) For referral program\r\n6.1)\r\nWe collaborate with lingoffer" +
-            ".com, please register. We will let them you are Baozi student so you can get ref" +
-            "erred more times than normal users. \r\n6.2)\r\nPlease attach your latest revised re" +
-            "sume. The majority of the listed companies need a job id to refer you in the sys" +
-            "tem. So please go to those companies website, find 1 or 2 job ids that you are m" +
-            "ost interested in, and send an email and your resume to \r\nbaozirefer@googlegroup" +
-            "s.com\r\nWe can refer the below companies, however, it also heavily depends on eac" +
-            "h company\'s head count. We will give our best try if you did very well in mock i" +
-            "nterviews, but unfortunately we cannot guarantee anything (as a matter of fact, " +
-            "nobody can guarantee this, if somebody says they can, please rethink). \r\n\r\n\tAmaz" +
-            "on       need job id\r\n\tGoogle\r\n\tLinkedIn     need LinkedIn profile, job id, use " +
-            "this link https://lnkd.in/eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwit" +
-            "ter      need job id\r\n\tApple\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, a" +
-            "nd use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber" +
-            "         need job id\r\n\tSnapchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good" +
-            " luck on your interviews!\r\n\r\nBest,\r\nBaozi Team")]
+            "hanks for your understanding. \r\n2) Please send us your resume, also cc qianginte" +
+            "rview@gmail.com, teacher Qiang will help you with resume.\r\n3) Please provide us " +
+            "your Skype ID, [Please register one if you don\'t have it]. A phone number just i" +
+            "n case.\r\n4) Please stay at a place that has decent network connection, we will b" +
+            "e Skype audio chatting and do online coding.\r\n5) By default, 3 rounds are all co" +
+            "ding. If you need system design, please let us know how many coding and system d" +
+            "esign you want. \r\n6) For referral program\r\n6.1)\r\nWe collaborate with lingoffer.c" +
+            "om, please register. We will let them you are Baozi student so you can get refer" +
+            "red more times than normal users. \r\n6.2)\r\nPlease attach your latest revised resu" +
+            "me. The majority of the listed companies need a job id to refer you in the syste" +
+            "m. So please go to those companies website, find 1 or 2 job ids that you are mos" +
+            "t interested in, and send an email and your resume to \r\nbaozirefer@googlegroups." +
+            "com\r\nWe can refer the below companies, however, it also heavily depends on each " +
+            "company\'s head count. We will give our best try if you did very well in mock int" +
+            "erviews, but unfortunately we cannot guarantee anything (as a matter of fact, no" +
+            "body can guarantee this, if somebody says they can, please rethink). \r\n\r\n\tAmazon" +
+            "       need job id\r\n\tGoogle\r\n\tLinkedIn     need LinkedIn profile, job id, use th" +
+            "is link https://lnkd.in/eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwitte" +
+            "r      need job id\r\n\tApple\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, and" +
+            " use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber  " +
+            "       need job id\r\n\tSnapchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good l" +
+            "uck on your interviews!\r\n\r\nBest,\r\nBaozi Team")]
         public string PremiumSdeMockInterviewEmailTemplates {
             get {
                 return ((string)(this["PremiumSdeMockInterviewEmailTemplates"]));
