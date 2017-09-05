@@ -52,11 +52,12 @@ namespace Baozipayment.Models
 			{
 				if (m_paymentInfo.paymentStatusValue == PaymentStatus.Completed)
 				{
-					if (m_paymentInfo.item_name.ToLower().Contains("sde interview"))
+                    // TODO: NOTE: use the mc_gross amount, when we change the price, remember to update this
+					if (m_paymentInfo.mc_gross.ToLower().Contains("299"))
 						await emailNotifyUser("SdeMockInterview");
-                    else if (m_paymentInfo.item_name.ToLower().Contains("non-sde interview"))
+                    else if (m_paymentInfo.mc_gross.ToLower().Contains("149"))
                         await emailNotifyUser("NonSdeMockInterview");
-                    else if (m_paymentInfo.item_name.ToLower().Contains("premium sde interview"))
+                    else if (m_paymentInfo.mc_gross.ToLower().Contains("399"))
                         await emailNotifyUser("PremiumSdeMockInterview");
                     else if (m_paymentInfo.item_name.ToLower().Contains("weekend class"))
 						await emailNotifyUser("OnlineClass");
