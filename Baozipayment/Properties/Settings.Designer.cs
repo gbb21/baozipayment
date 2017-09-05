@@ -12,7 +12,7 @@ namespace Baozipayment.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "14.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -34,38 +34,37 @@ namespace Baozipayment.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute(@"(please do NOT reply to this email)
+        [global::System.Configuration.DefaultSettingValueAttribute(@"(PLEASE DO NOT REPLY TO THIS EMAIL)
 
 Hey {0},
 
 Thanks a lot for your interests in Baozi mock interview!
 
-We provide mock interview services, which includes 3 rounds of 45 min mock interview + 30 min debrief session. We will be speaking to you with video call and online coding if you are not in Seattle area. If you are in Seattle, we could arrange onsite interviews.
+Your mock interview includes three rounds of 45 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and online coding.
 
-[PROMOTION] Good news, you are qualified to get $20 Cashback  after sharing the Baozi wechat articles in your wechat. For details, please follow instructions on the http://baozitraining.org/#mock_interview or contact baozitraining@outlook.com.
-
-Next step: (Please send email to baozitraining@outlook.com)
-1) Please send us a few times that works for you. Usually Tuesday evening is our default interview day, but we can make exceptions if it doesn't work for you. We will confirm with our interviewers for their availability. All of our interviewers are currently working fulltime at companies so we could either do it in the evenings during weekdays or anytime weekends. Thanks for your understanding. 
+Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+1) Please send us a few times that works for you. Usually Tuesday evening (6pm to 10pm PST/PDT) is our default interview time, we could make exceptions if this absolutely doesn't work for you. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. All of our interviewers are currently working fulltime at well known IT companies. Thanks for your understanding. 
 2) Please send us your resume.
-3) Please provide us your Skype ID, [QQ only if you are not in the US]. Lastly, a phone number if all above don’t work.
-4) Please stay at a place that has decent network connection, we will be video chatting and do online coding.
+3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
+4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
+5) By default, 3 rounds are all coding. If you need system design, please let us know how many coding and system design you want. 
 
-We appreciate your business  and good luck on your interview!
+We appreciate your business and good luck on your interviews!
 
 Best,
 Baozi Team")]
-        public string MockInterviewEmailTemplates {
+        public string SdeMockInterviewEmailTemplates {
             get {
-                return ((string)(this["MockInterviewEmailTemplates"]));
+                return ((string)(this["SdeMockInterviewEmailTemplates"]));
             }
         }
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to baozi Mock Interview")]
-        public string MockInterviewEmailTitle {
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
+        public string SdeMockInterviewEmailTitle {
             get {
-                return ((string)(this["MockInterviewEmailTitle"]));
+                return ((string)(this["SdeMockInterviewEmailTitle"]));
             }
         }
         
@@ -118,9 +117,9 @@ Baozi Team")]
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("False")]
-        public bool MockInterviewEmailIsHtml {
+        public bool SdeMockInterviewEmailIsHtml {
             get {
-                return ((bool)(this["MockInterviewEmailIsHtml"]));
+                return ((bool)(this["SdeMockInterviewEmailIsHtml"]));
             }
         }
         
@@ -224,6 +223,109 @@ Baozi Team")]
         public bool OnlineJudgeEmailIsHtml {
             get {
                 return ((bool)(this["OnlineJudgeEmailIsHtml"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool NonSdeMockInterviewEmailIsHtml {
+            get {
+                return ((bool)(this["NonSdeMockInterviewEmailIsHtml"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute(@"(PLEASE DO NOT REPLY TO THIS EMAIL)
+
+Hey {0},
+
+Thanks a lot for your interests in Baozi mock interview!
+
+Your mock interview includes one round of 45 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and online coding.
+
+Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+1) Please send us a few times that works for you. Usually Tuesday evening (6pm to 10pm PST/PDT) is our default interview time, we could make exceptions if this absolutely doesn't work for you. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. All of our interviewers are currently working fulltime at well known IT companies. Thanks for your understanding. 
+2) Please send us your resume.
+3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
+4) Please stay at a place that has decent network connection, we will be Skype audio chatting and do online coding.
+5) Please let us know if you have any special requirement regarding the interviews, for example, any target company? Coding or System Design? We will try our best to match it.
+
+We appreciate your business and good luck on your interviews!
+
+Best,
+Baozi Team")]
+        public string NonSdeMockInterviewEmailTemplates {
+            get {
+                return ((string)(this["NonSdeMockInterviewEmailTemplates"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
+        public string NonSdeMockInterviewEmailTitle {
+            get {
+                return ((string)(this["NonSdeMockInterviewEmailTitle"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool PremiumSdeMockInterviewEmailIsHtml {
+            get {
+                return ((bool)(this["PremiumSdeMockInterviewEmailIsHtml"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("(PLEASE DO NOT REPLY TO THIS EMAIL)\r\n\r\nHey {0},\r\n\r\nThanks a lot for your interest" +
+            "s in Baozi premium mock interview!\r\n\r\nYour mock interview includes three rounds " +
+            "of 45 min mock interview + 30 min debrief session, a resume revision and best ef" +
+            "fort refer program. We will be speaking to you with audio Skype call and online " +
+            "coding.\r\n\r\nNext step: (Please send email to baozitraining@outlook.com, DO NOT RE" +
+            "PLY TO THIS EMAIL)\r\n1) Please send us a few times that works for you. Usually Tu" +
+            "esday evening (6pm to 10pm PST/PDT) is our default interview time, we could make" +
+            " exceptions if this absolutely doesn\'t work for you. We will confirm with our in" +
+            "terviewers for their availability and get back to you 2 -3 days afterwards. All " +
+            "of our interviewers are currently working fulltime at well known IT companies. T" +
+            "hanks for your understanding. \r\n2) Please send us your resume, also cc qianginte" +
+            "rview@gmail.com, teacher Qiang will help you with resume.\r\n3) Please provide us " +
+            "your Skype ID, [Please register one if you don\'t have it]. A phone number just i" +
+            "n case.\r\n4) Please stay at a place that has decent network connection, we will b" +
+            "e Skype audio chatting and do online coding.\r\n5) By default, 3 rounds are all co" +
+            "ding. If you need system design, please let us know how many coding and system d" +
+            "esign you want. \r\n6) For referral program\r\n6.1)\r\nWe collaborate with lingoffer.c" +
+            "om, please register. We will let them you are Baozi student so you can get refer" +
+            "red more times than normal users. \r\n6.2)\r\nPlease attach your latest revised resu" +
+            "me. The majority of the listed companies need a job id to refer you in the syste" +
+            "m. So please go to those companies website, find 1 or 2 job ids that you are mos" +
+            "t interested in, and send an email and your resume to \r\nbaozirefer@googlegroups." +
+            "com\r\nWe can refer the below companies, however, it also heavily depends on each " +
+            "company\'s head count. We will give our best try if you did very well in mock int" +
+            "erviews, but unfortunately we cannot guarantee anything (as a matter of fact, no" +
+            "body can guarantee this, if somebody says they can, please rethink). \r\n\r\n\tAmazon" +
+            "       need job id\r\n\tGoogle\r\n\tLinkedIn     need LinkedIn profile, job id, use th" +
+            "is link https://lnkd.in/eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwitte" +
+            "r      need job id\r\n\tApple\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, and" +
+            " use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber  " +
+            "       need job id\r\n\tSnapchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good l" +
+            "uck on your interviews!\r\n\r\nBest,\r\nBaozi Team")]
+        public string PremiumSdeMockInterviewEmailTemplates {
+            get {
+                return ((string)(this["PremiumSdeMockInterviewEmailTemplates"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
+        public string PremiumSdeMockInterviewEmailTitle {
+            get {
+                return ((string)(this["PremiumSdeMockInterviewEmailTitle"]));
             }
         }
     }
