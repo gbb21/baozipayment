@@ -307,9 +307,13 @@ Baozi Team")]
             "s.com\r\nWe can refer the below companies, however, it also heavily depends on eac" +
             "h company\'s head count. We will give our best try if you did very well in mock i" +
             "nterviews, but unfortunately we cannot guarantee anything (as a matter of fact, " +
-            "nobody can guarantee this, if somebody says they can, please rethink). \r\n\r\n\r\n\r\n\r" +
-            "\nWe appreciate your business and good luck on your interviews!\r\n\r\nBest,\r\nBaozi T" +
-            "eam")]
+            "nobody can guarantee this, if somebody says they can, please rethink). \r\n\r\n\tAmaz" +
+            "on       need job id\r\n\tGoogle\r\n\tLinkedIn     need LinkedIn profile, job id, use " +
+            "this link https://lnkd.in/eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwit" +
+            "ter      need job id\r\n\tApple\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, a" +
+            "nd use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber" +
+            "         need job id\r\n\tSnapchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good" +
+            " luck on your interviews!\r\n\r\nBest,\r\nBaozi Team")]
         public string PremiumSdeMockInterviewEmailTemplates {
             get {
                 return ((string)(this["PremiumSdeMockInterviewEmailTemplates"]));
