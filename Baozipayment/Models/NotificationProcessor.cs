@@ -56,7 +56,7 @@ namespace Baozipayment.Models
 					if (m_paymentInfo.mc_gross.ToLower().Contains("299"))
 						await emailNotifyUser("SdeMockInterview");
                     // This is the new one round sde and non sde mock interview, ACTIVE
-                    else if (m_paymentInfo.mc_gross.ToLower().Contains("149"))
+                    else if (m_paymentInfo.mc_gross.ToLower().Contains("199"))
                         await emailNotifyUser("NonSdeMockInterview");
                     // This is the 3 round + resume revision + refer, ACTIVE
                     else if (m_paymentInfo.mc_gross.ToLower().Contains("599"))
