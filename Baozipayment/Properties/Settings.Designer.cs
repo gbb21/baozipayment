@@ -245,7 +245,7 @@ Thanks a lot for your interests in Baozi mock interview!
 
 Your mock interview includes one round of 45-60 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and use online coding tools.
 
-Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+Next step: (Please send email to baozitraining@outlook.com with title ""Baozi Single Round Mock Interview Request for [Your First Name Your Last Name]"" , DO NOT REPLY TO THIS EMAIL)
 1) Please send us a few times that works for you (usually evenings work the best). Please be mindful that most of our interviwerers are working fulltime during day time and most of them are on west coast. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. Thanks for your understanding. 
 2) Please send us your resume.
 3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
@@ -265,7 +265,7 @@ Baozi Team")]
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Single Round Mock Interview")]
         public string NonSdeMockInterviewEmailTitle {
             get {
                 return ((string)(this["NonSdeMockInterviewEmailTitle"]));
@@ -326,7 +326,7 @@ Baozi Team")]
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Mock Interview")]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview")]
         public string PremiumSdeMockInterviewEmailTitle {
             get {
                 return ((string)(this["PremiumSdeMockInterviewEmailTitle"]));

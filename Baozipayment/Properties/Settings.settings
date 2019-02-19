@@ -161,7 +161,7 @@ Thanks a lot for your interests in Baozi mock interview!
 
 Your mock interview includes one round of 45-60 min mock interview + 30 min debrief session. We will be speaking to you with audio Skype call and use online coding tools.
 
-Next step: (Please send email to baozitraining@outlook.com, DO NOT REPLY TO THIS EMAIL)
+Next step: (Please send email to baozitraining@outlook.com with title "Baozi Single Round Mock Interview Request for [Your First Name Your Last Name]" , DO NOT REPLY TO THIS EMAIL)
 1) Please send us a few times that works for you (usually evenings work the best). Please be mindful that most of our interviwerers are working fulltime during day time and most of them are on west coast. We will confirm with our interviewers for their availability and get back to you 2 -3 days afterwards. Thanks for your understanding. 
 2) Please send us your resume.
 3) Please provide us your Skype ID, [Please register one if you don't have it]. A phone number just in case.
@@ -175,7 +175,7 @@ Best,
 Baozi Team</Value>
     </Setting>
     <Setting Name="NonSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Mock Interview</Value>
+      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Single Round Mock Interview</Value>
     </Setting>
     <Setting Name="PremiumSdeMockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
@@ -227,7 +227,7 @@ Best,
 Baozi Team</Value>
     </Setting>
     <Setting Name="PremiumSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Mock Interview</Value>
+      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview</Value>
     </Setting>
   </Settings>
 </SettingsFile>
