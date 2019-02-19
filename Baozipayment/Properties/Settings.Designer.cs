@@ -287,37 +287,38 @@ Baozi Team")]
             "s in Baozi premium mock interview!\r\n\r\nYour mock interview includes three rounds " +
             "of 45-60 min mock interview + 30 min debrief session, a resume revision and best" +
             " effort referral program. We will be speaking to you with audio Skype call and o" +
-            "nline coding.\r\n\r\nNext step: (Please send email to baozitraining@outlook.com, DO " +
-            "NOT REPLY TO THIS EMAIL)\r\n1) Please send us a few times that works for you. We w" +
-            "ill confirm with our interviewers for their availability and get back to you 2 -" +
-            "3 days afterwards. All of our interviewers are currently working fulltime at wel" +
-            "l known IT companies. Thanks for your understanding. \r\n2) Please send us your re" +
-            "sume, add \"resume revision needed\" in the email title.\r\n3) Please provide us you" +
-            "r Skype ID, [Please register one if you don\'t have it]. A phone number just in c" +
-            "ase.\r\n4) Please stay at a place that has decent network connection, we will be S" +
-            "kype audio chatting and do online coding.\r\n5) By default, 3 rounds are all codin" +
-            "g. If you need system design, please let us know how many coding and system desi" +
-            "gn you want. If you have any target companies, let us know and we will do our be" +
-            "st to match.\r\n6) Please complete the feedback after the interview https://goo.gl" +
-            "/forms/fKRC0Aka0ZvkzWui2 and contact us (baozitraining@outlook.com) if any issue" +
-            "s or suggestions.\r\n7) If you perform well in your mock interviews, you will ente" +
-            "r the referral program. Please send an email to baozitraining@outlook.com to con" +
-            "firm your performance.\r\n7.1)\r\nWe collaborate with lingoffer.com, please register" +
-            ". We will let them you are Baozi student so you can get referred more times than" +
-            " normal users. \r\n7.2)\r\nPlease attach your latest revised resume. The majority of" +
-            " the listed companies need a job id to refer you in the system. So please go to " +
-            "those companies website, find 1 or 2 job ids that you are most interested in, an" +
-            "d send an email and your resume to \r\nbaozirefer@googlegroups.com\r\nWe can refer t" +
-            "he below companies, however, it also heavily depends on each company\'s head coun" +
-            "t. We will give our best try if you did very well in mock interviews, but unfort" +
-            "unately we cannot guarantee anything (as a matter of fact, nobody can guarantee " +
-            "this, if somebody says they can, please rethink). \r\n\r\n\tAmazon       need job id\r" +
-            "\n\tGoogle\r\n\tLinkedIn     need LinkedIn profile, job id, use this link https://lnk" +
-            "d.in/eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwitter      need job id\r" +
-            "\n\tApple\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, and use this link: htt" +
-            "p://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber         need job id\r" +
-            "\n\tSnapchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good luck on your intervi" +
-            "ews!\r\n\r\nBest,\r\nBaozi Team")]
+            "nline coding.\r\n\r\nNext step: (Please send email to baozitraining@outlook.com  wit" +
+            "h title \"Baozi Premium Three Rounds Mock Interview and Resume Revision Request f" +
+            "or [Your First Name Your Last Name]\" , DO NOT REPLY TO THIS EMAIL)\r\n1) Please se" +
+            "nd us a few times that works for you. We will confirm with our interviewers for " +
+            "their availability and get back to you 2 -3 days afterwards. All of our intervie" +
+            "wers are currently working fulltime at well known IT companies. Thanks for your " +
+            "understanding. \r\n2) Please attach us your resume.\r\n3) Please provide us your Sky" +
+            "pe ID, [Please register one if you don\'t have it]. A phone number just in case.\r" +
+            "\n4) Please stay at a place that has decent network connection, we will be Skype " +
+            "audio chatting and do online coding.\r\n5) By default, 3 rounds are all coding. If" +
+            " you need system design, please let us know how many coding and system design yo" +
+            "u want. If you have any target companies, let us know and we will do our best to" +
+            " match.\r\n6) Please complete the feedback after the interview https://goo.gl/form" +
+            "s/fKRC0Aka0ZvkzWui2 and contact us (baozitraining@outlook.com) if any issues or " +
+            "suggestions.\r\n7) If you perform well in your mock interviews, you will enter the" +
+            " referral program. Please send an email to baozitraining@outlook.com to confirm " +
+            "your performance.\r\n7.1)\r\nWe collaborate with lingoffer.com, please register. We " +
+            "will let them you are Baozi student so you can get referred more times than norm" +
+            "al users. \r\n7.2)\r\nPlease attach your latest revised resume. The majority of the " +
+            "listed companies need a job id to refer you in the system. So please go to those" +
+            " companies website, find 1 or 2 job ids that you are most interested in, and sen" +
+            "d an email and your resume to \r\nbaozirefer@googlegroups.com\r\nWe can refer the be" +
+            "low companies, however, it also heavily depends on each company\'s head count. We" +
+            " will give our best try if you did very well in mock interviews, but unfortunate" +
+            "ly we cannot guarantee anything (as a matter of fact, nobody can guarantee this," +
+            " if somebody says they can, please rethink). \r\n\r\n\tAmazon       need job id\r\n\tGoo" +
+            "gle\r\n\tLinkedIn     need LinkedIn profile, job id, use this link https://lnkd.in/" +
+            "eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwitter      need job id\r\n\tApp" +
+            "le\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, and use this link: http://e" +
+            "bay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber         need job id\r\n\tSna" +
+            "pchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good luck on your interviews!\r" +
+            "\n\r\nBest,\r\nBaozi Team")]
         public string PremiumSdeMockInterviewEmailTemplates {
             get {
                 return ((string)(this["PremiumSdeMockInterviewEmailTemplates"]));
