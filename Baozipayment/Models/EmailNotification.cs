@@ -27,5 +27,5 @@ namespace Baozipayment.Models
 				await client.SendMailAsync(mail);
 			}
 		}
-	}
+    }
 }

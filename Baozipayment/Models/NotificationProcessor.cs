@@ -52,24 +52,58 @@ namespace Baozipayment.Models
 			{
 				if (m_paymentInfo.paymentStatusValue == PaymentStatus.Completed)
 				{
+                    int price = -1;
+
                     // TODO: NOTE: use the mc_gross amount, when we change the price, remember to update this
-					if (m_paymentInfo.mc_gross.ToLower().Contains("299"))
-						await emailNotifyUser("SdeMockInterview");
+                    if (m_paymentInfo.mc_gross.ToLower().Contains("299"))
+                    {
+                        await emailNotifyUser("SdeMockInterview");
+                        price = 299;
+                    }
                     // This is the new one round sde and non sde mock interview, ACTIVE
                     else if (m_paymentInfo.mc_gross.ToLower().Contains("199"))
+                    {
                         await emailNotifyUser("NonSdeMockInterview");
+                        price = 199;
+                    }
                     // This is the 3 round + resume revision + refer, ACTIVE
                     else if (m_paymentInfo.mc_gross.ToLower().Contains("599"))
+                    {
                         await emailNotifyUser("PremiumSdeMockInterview");
+                        price = 599;
+                    }
                     else if (m_paymentInfo.item_name.ToLower().Contains("weekend class"))
-						await emailNotifyUser("OnlineClass");
-					else if (m_paymentInfo.item_name.ToLower().Contains("weekend test"))
-						await emailNotifyUser("OnlineTest");
-					else if (m_paymentInfo.item_name.ToLower().Contains("weekend online judge"))
-						await emailNotifyUser("OnlineJudge");
-					else
-						System.Diagnostics.Trace.TraceWarning(String.Format("Item {0} has no action.", m_paymentInfo.item_name), "empty action");
-				}
+                        await emailNotifyUser("OnlineClass");
+                    else if (m_paymentInfo.item_name.ToLower().Contains("weekend test"))
+                        await emailNotifyUser("OnlineTest");
+                    else if (m_paymentInfo.item_name.ToLower().Contains("weekend online judge"))
+                        await emailNotifyUser("OnlineJudge");
+                    else
+                        System.Diagnostics.Trace.TraceWarning(String.Format("Item {0} has no action.", m_paymentInfo.item_name), "empty action");
+                    /*
+                    try
+                    {
+                        // Send an email confirmation to baozitraining@outlook.com regardless 
+                        var notification = new EmailNotification();
+                        notification.subject = "You have received a new mock interview payment";
+                        notification.receiver = "baozitraining@outlook.com";
+                        notification.isHtml = false;
+
+                        notification.message = String.Format("Payer:{0} {1}, email:{2}, id:{3}, phone:{4} paid {5} USD",
+                            m_paymentInfo.first_name,
+                            m_paymentInfo.last_name,
+                            m_paymentInfo.payer_email,
+                            m_paymentInfo.payer_id,
+                            m_paymentInfo.contact_phone,
+                            price);
+                        await notification.sendAsync();
+                    }
+                    catch (Exception e)
+                    {
+                        System.Diagnostics.Trace.Fail("Send Default baoi Email confirmation Failed", e.Message);
+                    }
+                    */
+                }
 			}
 			else
 			{
