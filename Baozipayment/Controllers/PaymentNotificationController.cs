@@ -14,6 +14,7 @@ namespace Baozipayment.Controllers
 	public class PaymentNotificationController : ApiController
 	{
 		// POST: api/PaymentNotification
+        // This is the entry point of paypal sending the IPN request 
 		[HttpPost]
 		public async Task<IHttpActionResult> onPaymentNotified()
 		{

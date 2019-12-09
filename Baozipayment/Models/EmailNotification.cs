@@ -23,6 +23,8 @@ namespace Baozipayment.Models
 				mail.Subject = subject;
 				mail.Body = message;
 				mail.IsBodyHtml = isHtml;
+                // Always bcc baozi and xiaoyu
+                mail.Bcc.Add(new MailAddress("baozitraining@outlook.com", "shixiaoyu.zju@gmail.com"));
 				var client = new SmtpClient();
 				await client.SendMailAsync(mail);
 			}

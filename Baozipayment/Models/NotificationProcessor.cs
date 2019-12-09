@@ -23,7 +23,7 @@ namespace Baozipayment.Models
 
 		public void startProcess()
 		{
-			new TaskFactory().StartNew(() => { return stateTransite(); });
+			new TaskFactory().StartNew(async () => { await stateTransite(); });
 		}
 
 		async Task emailNotifyUser(String category)
@@ -63,8 +63,33 @@ namespace Baozipayment.Models
                     // This is the new one round sde and non sde mock interview, ACTIVE
                     else if (m_paymentInfo.mc_gross.ToLower().Contains("199"))
                     {
-                        await emailNotifyUser("NonSdeMockInterview");
+                     
                         price = 199;
+                        /* Xiaoyu: below works, but I decided to just bcc in the sendAsync() method
+                           Keep this for future reference
+                        try
+                        {  
+                            // Send an email confirmation to baozitraining@outlook.com regardless 
+                            var notification = new EmailNotification();
+                            notification.subject = "You have received a new mock interview payment";
+                            notification.receiver = "baozitraining@outlook.com:shixiaoyu.zju@gmail.com";
+                            notification.isHtml = false;
+
+                            notification.message = String.Format("Payer:{0} {1}, email:{2}, id:{3}, phone:{4} paid {5} USD",
+                                m_paymentInfo.first_name,
+                                m_paymentInfo.last_name,
+                                m_paymentInfo.payer_email,
+                                m_paymentInfo.payer_id,
+                                m_paymentInfo.contact_phone,
+                                price);
+                            await notification.sendAsync();
+                        }
+                        catch (Exception e)
+                        {
+                            System.Diagnostics.Trace.Fail("Send Default baoi Email confirmation Failed", e.Message);
+                        }
+                        */
+                        await emailNotifyUser("NonSdeMockInterview");
                     }
                     // This is the 3 round + resume revision + refer, ACTIVE
                     else if (m_paymentInfo.mc_gross.ToLower().Contains("599"))
@@ -79,30 +104,9 @@ namespace Baozipayment.Models
                     else if (m_paymentInfo.item_name.ToLower().Contains("weekend online judge"))
                         await emailNotifyUser("OnlineJudge");
                     else
+                    {
                         System.Diagnostics.Trace.TraceWarning(String.Format("Item {0} has no action.", m_paymentInfo.item_name), "empty action");
-                    /*
-                    try
-                    {
-                        // Send an email confirmation to baozitraining@outlook.com regardless 
-                        var notification = new EmailNotification();
-                        notification.subject = "You have received a new mock interview payment";
-                        notification.receiver = "baozitraining@outlook.com";
-                        notification.isHtml = false;
-
-                        notification.message = String.Format("Payer:{0} {1}, email:{2}, id:{3}, phone:{4} paid {5} USD",
-                            m_paymentInfo.first_name,
-                            m_paymentInfo.last_name,
-                            m_paymentInfo.payer_email,
-                            m_paymentInfo.payer_id,
-                            m_paymentInfo.contact_phone,
-                            price);
-                        await notification.sendAsync();
                     }
-                    catch (Exception e)
-                    {
-                        System.Diagnostics.Trace.Fail("Send Default baoi Email confirmation Failed", e.Message);
-                    }
-                    */
                 }
 			}
 			else
