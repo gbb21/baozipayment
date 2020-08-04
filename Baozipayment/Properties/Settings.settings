@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="PaypalPaymentVerificationURL" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://www.paypal.com/cgi-bin/webscr</Value>
+      <Value Profile="(Default)">https://ipnpb.sandbox.paypal.com/cgi-bin/webscr</Value>
     </Setting>
     <Setting Name="SdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
       <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
@@ -180,6 +180,9 @@ Baozi Team</Value>
     <Setting Name="PremiumSdeMockInterviewEmailIsHtml" Type="System.Boolean" Scope="Application">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="PremiumSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview</Value>
+    </Setting>
     <Setting Name="PremiumSdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
       <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
 
@@ -204,30 +207,27 @@ Please attach your latest revised resume. The majority of the listed companies n
 baozirefer@googlegroups.com
 We can refer the below companies, however, it also heavily depends on each company's head count. We will give our best try if you did very well in mock interviews, but unfortunately we cannot guarantee anything (as a matter of fact, nobody can guarantee this, if somebody says they can, please rethink). 
 
-	Amazon       need job id
-	Google
-	LinkedIn     need LinkedIn profile, job id, use this link https://lnkd.in/eCJBhqj
-	Microsoft
-	Yelp
-	GroupOn
-	Facebook
-	Twitter      need job id
-	Apple
-	Salesforce
-	Oracle
-	Ebay         need job id, and use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na
-	Uber         need job id
-	Snapchat
-	Nest
+  Amazon       need job id
+  Google
+  LinkedIn     need LinkedIn profile, job id, use this link https://lnkd.in/eCJBhqj
+  Microsoft
+  Yelp
+  GroupOn
+  Facebook
+  Twitter      need job id
+  Apple
+  Salesforce
+  Oracle
+  Ebay         need job id, and use this link: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na
+  Uber         need job id
+  Snapchat
+  Nest
 
 
 We appreciate your business and good luck on your interviews!
 
 Best,
 Baozi Team</Value>
-    </Setting>
-    <Setting Name="PremiumSdeMockInterviewEmailTitle" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview</Value>
     </Setting>
   </Settings>
 </SettingsFile>
