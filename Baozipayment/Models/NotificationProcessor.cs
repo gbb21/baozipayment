@@ -117,22 +117,32 @@ namespace Baozipayment.Models
 
 
 		async Task<bool> verifyRequest()
-		{
-			
+		{			
 			var req = HttpWebRequest.Create(Properties.Settings.Default.PaypalPaymentVerificationURL);
 			req.Method = "POST";
 			req.ContentType = "application/x-www-form-urlencoded";
 
 			var commandBytes = Encoding.ASCII.GetBytes("&cmd=_notify-validate");
 			req.ContentLength = m_requestData.Length + commandBytes.Length;
+
 			await req.GetRequestStream().WriteAsync(m_requestData, 0, m_requestData.Length);
 			await req.GetRequestStream().WriteAsync(commandBytes, 0, commandBytes.Length);
+
 			req.GetRequestStream().Close();
 
-			var input = new StreamReader((await req.GetResponseAsync()).GetResponseStream());
-			var strResponse = await input.ReadToEndAsync();
-
-			return strResponse == "VERIFIED";
+			try
+			{
+				var input = new StreamReader((await req.GetResponseAsync()).GetResponseStream());
+				var strResponse = await input.ReadToEndAsync();
+				input.Close();
+				return strResponse == "VERIFIED";
+			}
+			catch (Exception e)
+            {
+				System.Diagnostics.Trace.TraceWarning("Validation Failed: {0}", e.Message);
+				return false;
+			}
+			
 		}
 
 

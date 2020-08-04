@@ -12,7 +12,7 @@ namespace Baozipayment.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.3.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.6.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -25,7 +25,7 @@ namespace Baozipayment.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.paypal.com/cgi-bin/webscr")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://ipnpb.sandbox.paypal.com/cgi-bin/webscr")]
         public string PaypalPaymentVerificationURL {
             get {
                 return ((string)(this["PaypalPaymentVerificationURL"]));
@@ -283,6 +283,15 @@ Baozi Team")]
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview")]
+        public string PremiumSdeMockInterviewEmailTitle {
+            get {
+                return ((string)(this["PremiumSdeMockInterviewEmailTitle"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.DefaultSettingValueAttribute("(PLEASE DO NOT REPLY TO THIS EMAIL)\r\n\r\nHey {0},\r\n\r\nThanks a lot for your interest" +
             "s in Baozi premium mock interview!\r\n\r\nYour mock interview includes three rounds " +
             "of 45-60 min mock interview + 30 min debrief session, a resume revision and best" +
@@ -312,25 +321,16 @@ Baozi Team")]
             "low companies, however, it also heavily depends on each company\'s head count. We" +
             " will give our best try if you did very well in mock interviews, but unfortunate" +
             "ly we cannot guarantee anything (as a matter of fact, nobody can guarantee this," +
-            " if somebody says they can, please rethink). \r\n\r\n\tAmazon       need job id\r\n\tGoo" +
-            "gle\r\n\tLinkedIn     need LinkedIn profile, job id, use this link https://lnkd.in/" +
-            "eCJBhqj\r\n\tMicrosoft\r\n\tYelp\r\n\tGroupOn\r\n\tFacebook\r\n\tTwitter      need job id\r\n\tApp" +
-            "le\r\n\tSalesforce\r\n\tOracle\r\n\tEbay         need job id, and use this link: http://e" +
-            "bay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n\tUber         need job id\r\n\tSna" +
-            "pchat\r\n\tNest\r\n\r\n\r\nWe appreciate your business and good luck on your interviews!\r" +
-            "\n\r\nBest,\r\nBaozi Team")]
+            " if somebody says they can, please rethink). \r\n\r\n  Amazon       need job id\r\n  G" +
+            "oogle\r\n  LinkedIn     need LinkedIn profile, job id, use this link https://lnkd." +
+            "in/eCJBhqj\r\n  Microsoft\r\n  Yelp\r\n  GroupOn\r\n  Facebook\r\n  Twitter      need job " +
+            "id\r\n  Apple\r\n  Salesforce\r\n  Oracle\r\n  Ebay         need job id, and use this li" +
+            "nk: http://ebay.referrals.selectminds.com/via/ShuoW-B2ep2na\r\n  Uber         need" +
+            " job id\r\n  Snapchat\r\n  Nest\r\n\r\n\r\nWe appreciate your business and good luck on yo" +
+            "ur interviews!\r\n\r\nBest,\r\nBaozi Team")]
         public string PremiumSdeMockInterviewEmailTemplates {
             get {
                 return ((string)(this["PremiumSdeMockInterviewEmailTemplates"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("[Action Required] Welcome to Baozi Training Premium Three Rounds Mock Interview")]
-        public string PremiumSdeMockInterviewEmailTitle {
-            get {
-                return ((string)(this["PremiumSdeMockInterviewEmailTitle"]));
             }
         }
     }
