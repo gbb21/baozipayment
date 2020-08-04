@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="PaypalPaymentVerificationURL" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">https://ipnpb.sandbox.paypal.com/cgi-bin/webscr</Value>
+      <Value Profile="(Default)">https://ipnpb.paypal.com/cgi-bin/webscr</Value>
     </Setting>
     <Setting Name="SdeMockInterviewEmailTemplates" Type="System.String" Scope="Application">
       <Value Profile="(Default)">(PLEASE DO NOT REPLY TO THIS EMAIL)
