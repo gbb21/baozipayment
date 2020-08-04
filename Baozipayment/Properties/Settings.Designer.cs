@@ -25,7 +25,7 @@ namespace Baozipayment.Properties {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://ipnpb.sandbox.paypal.com/cgi-bin/webscr")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://ipnpb.paypal.com/cgi-bin/webscr")]
         public string PaypalPaymentVerificationURL {
             get {
                 return ((string)(this["PaypalPaymentVerificationURL"]));
