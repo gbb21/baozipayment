@@ -19,3 +19,11 @@ Right click the *Baozipayment* project and click properties. On the settings tab
 You can also modify those strings and save it.
 
 Update the template you needed, and adjust the code accordingly.
+# To sync from gbb21/baozipayment
+I forked a repo, sometimes the original contains changes I want so I need to sync back. 
+```
+git remote add upsteam https://github.com/gbb21/baozipayment.git
+git fetch upsteam
+git checkout master
+git rebase upstream/mastere
+```
